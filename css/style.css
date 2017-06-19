@@ -1,0 +1,491 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*******************************/
+/**** GENERAL PAGE ELEMENTS ****/
+/*******************************/
+
+img {
+  width: 100%;
+}
+
+.fullwd {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  float: left;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: .3;
+}
+
+.ctr {
+  text-align: center;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+a:hover,
+a:focus {
+  color: #343953;
+  text-decoration: none !important;
+}
+
+/*****************/
+/**** BUTTONS ****/
+/*****************/
+
+.btn-purple {
+  padding: 20px;
+  background-color: #343953;
+  color: #fff;
+  width: auto;
+  display: inline-block;
+}
+
+/********************/
+/**** TYPOGRAPHY ****/
+/********************/
+
+.title {
+  font-size: 90px;
+  font-family: 'Amatic SC', cursive;
+  padding: 10px 5px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px !important;
+}
+
+h1, h2, .h1, .h2 {
+  font-family: 'Amatic SC', cursive !important;
+}
+
+h3, h4, .h3, .h4 {
+  font-family: 'Just Another Hand', cursive !important;
+}
+
+h5, h6, .h5, .h6 {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+h2, .h2 {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+}
+
+h3, .h3 {
+  font-size: 46px !important;
+}
+
+h4, .h4 {
+  font-size: 38px !important;
+}
+
+h5, .h5 {
+  font-size: 22px !important;
+}
+
+h6, .h6 {
+  font-size: 14px !important;
+}
+
+p {
+  margin: 0 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 18px !important;
+}
+
+/******************/
+/**** CAROUSEL ****/
+/******************/
+
+.carousel {
+  background-color: #000;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-indicators li {
+  width: 60px !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+ol.carousel-indicators .active {
+  border: 1px solid #fff;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ol.carousel-indicators {
+  font-size: 0;
+}
+
+.carousel-control {
+  z-index: 8;
+}
+
+span.glyphicon.glyphicon-chevron-right,
+span.glyphicon.glyphicon-chevron-left {
+  font-size: 40px;
+  z-index: 6;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/**************/
+/*** SOCIAL ***/
+/**************/
+
+.social-icons {
+  position: absolute;
+  z-index: 6;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding-top: 80vh;
+}
+
+.social-icons .fa {
+  color: #fff;
+}
+
+.social-icons .fa:hover {
+  color: #81cfbd;
+}
+
+.fbook,
+.insta {
+  display: inline-block;
+  padding: 5px;
+}
+
+.fa-instagram:before,
+.fa-facebook-square:before {
+  font-size: 35px;
+}
+
+/************/
+/*** TABS ***/
+/************/
+
+.nav {
+  background-color: rgba(52,57,83,.2)
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(52,57,83,.8) !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    color: #fff;
+}
+
+.nav>li>a {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 42px;
+  padding: 0 !important;
+  color: #343953;
+}
+
+.nav-pills li {
+  border: none;
+  border-radius: 0;
+  font-size: 30px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #343953 !important;
+    border-radius: 0;
+}
+
+.nav-pills li:nth-last-of-type(2) {
+  border-right: none;
+  border-left: none;
+}
+
+#exTab1 {
+  width: 100%;
+}
+
+section.tab-content.clearfix {
+  padding: 30px;
+}
+
+/*****************/
+/*** CTA PANEL ***/
+/*****************/
+
+.cta-panel {
+  text-align: center;
+  font-size: 40px;
+  background-color: #343953;
+  font-family: 'Amatic SC', cursive;
+  padding: 30px;
+}
+
+.cta-panel a {
+  color: #fff;
+}
+
+.cta-panel a:hover {
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.cta-panel div {
+  padding: 20px 0px;
+}
+
+/*************/
+/*****NAV*****/
+/*************/
+
+.main-nav {
+  background-color: #777384;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+nav {
+  float: left;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 24px;
+}
+
+
+/************/
+/***SOCIAL***/
+/************/
+
+.social {
+  list-style: none;
+  float: right;
+}
+
+.social .fa {
+  color: #fff;
+  content:'';
+}
+
+.social .fa:hover {
+  color: #fff;
+  content:'';
+}
+
+.social .fa:before {
+  font-size: 30px;
+}
+
+.social li {
+  list-style: none;
+  float: right;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*************/
+/***SIDEBAR***/
+/*************/
+
+.sidebar {
+  float: right;
+  background-color: #677384;
+  padding: 10px;
+  height: 100vh;
+}
+
+
+/**********************/
+/*** SERVICES PANEL ***/
+/**********************/
+
+.services-panel {
+  text-align: center;
+}
+
+.services-icon {
+  font-size: 75px;
+}
+
+.services-icon .fa {
+  border: 5px solid #81cfbd;
+  border-radius: 50%;
+  padding: 20px;
+  color: #343953;
+  background-color: aliceblue;
+}
+
+.services-panel p {
+  text-align: left;
+  padding: 10px;
+}
+
+/*******************/
+/*** ABOUT PANEL ***/
+/*******************/
+
+.about-panel {
+  clear: both;
+  overflow: hidden;
+  border-top: 3px solid #343953;
+}
+
+div.about-img {
+  position: relative;
+  padding: 0;
+  vertical-align: middle;
+  height: 400px;
+}
+
+.about-img img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+
+.about-contact {
+  text-align: center;
+  clear: both;
+  padding: 30px 0;
+}
+
+.about-info {
+  padding: 30px;
+}
+
+/**************/
+/*** FOOTER ***/
+/**************/
+
+.footer {
+  padding-top: 200px;
+  color: #fff;
+  background-color: #000;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.footer-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+  .footer-bg:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to top,rgba(0, 0, 0, .8),rgba(0,0,0,.5),rgba(0,0,0,.1),rgba(255,255,255,.5),rgba(255,255,255,.9),rgb(255,255,255));
+}
+
+.site-info {
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 22px;
+}
+
+.site-info a {
+    color: #81cfbd !important;
+    font-weight: 600;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignright .fa {
+  color: #81cfbd;
+}
+
+.alignleft {
+  float: left;
+}
+
+.footer .social-icons {
+  padding-top: 0;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-top:20px;
+}
+
+/***********************/
+/***MOBILE RESPONSIVE***/
+/***********************/
+
+@media screen and (min-width: 1000px) {
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  .sidebar {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .main {
+    width: 1150px;
+  }
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="./js/main.js"></script>
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Just+Another+Hand|Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<section>
+ <div class="social-icons">
+  <div class="fbook">
+   <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+ </div>
+ <div class="insta">
+   <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+ </div>
+ </div>
+
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+      <div class="item active overlay fill" style="background-image:url('./img/slider2.jpg');"></div>
+
+    <div class="item overlay fill" style="background-image:url('./img/slider3.jpg');"></div>
+
+    <div class="item overlay fill" style="background-image:url('./img/slider1.jpg');"></div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+
+<section>
+  <h1 class="title ctr">My Photography</h1>
+
+<div id="exTab1" class="container fullwd">
+<ul  class="nav nav-pills">
+			<li class="active col-xs-12 col-sm-4 fullwd ctr">
+        <a  href="#1a" data-toggle="tab">NATURE</a>
+			</li>
+			<li class="col-xs-12 col-sm-4 fullwd ctr"><a href="#2a" data-toggle="tab">CANDID</a>
+			</li>
+			<li class="col-xs-12 col-sm-4 fullwd ctr"><a href="#3a" data-toggle="tab">WEDDINGS</a>
+			</li>
+		</ul>
+
+			<section class="tab-content clearfix">
+			  <div class="tab-pane active" id="1a">
+          <h2>Content's background color is the same for the tab</h2>
+				</div>
+				<div class="tab-pane" id="2a">
+          <h4>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h4>
+				</div>
+        <div class="tab-pane" id="3a">
+          <h5>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h5>
+				</div>
+			</div>
+  </section>
+</section>
+
+<section class="cta-panel fullwd">
+  <div><a href="#"> SEE MORE PHOTOS <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+</section>
+
+<section class="services-panel fullwd">
+  <div><h1 class="title">Services</h1></div>
+  <div class="services col-xs-12 col-sm-4">
+    <div class="services-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+      <h3>NATURE</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="services col-xs-12 col-sm-4">
+    <div class="services-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+      <h3>PEEPS</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="services col-xs-12 col-sm-4">
+    <div class="services-icon"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
+      <h3>WEDDINGS</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</section>
+
+<section class="about-panel fullwd">
+  <div class="about-img col-xs-12 col-sm-6">
+    <div><img src="./img/dm-headshot.jpg"></div>
+  </div>
+  <div class="about-info col-xs-12 col-sm-6">
+    <h2>Hi, I'm Delaney</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+    <div class="about-contact col-xs-12">
+    <h3>Contact me below, I love to chat!</h3>
+    <button onclick="myFunction()" class="btn-purple">CONTACT ME</button>
+    <div id="myDIV">
+      Contact form goes here.
+    </div>
+  </div>
+
+
+
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer footer-bg fill col-xs-12" style="background-image:url('./img/slider3.jpg');">
+    <div class="footer-info ctr col-xs-6">
+    <p>Delaney Morris</p>
+    <p>Phone:### ### ####</p>
+    <p>Email:### ### ####</p>
+    </div>
+    <div class="social-icons ctr col-xs-6">
+     <div class="fbook">
+      <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="insta">
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+    </div>
+  	<div class="site-info col-sm-12">
+  		<span class="alignleft">COPYRIGHT 2017 - DELANEY MORRIS <a href="#" target="blank">CONTACT</a> | <a href="#">PHOTOS</a> | <a href="#">SERVICES</a></span>
+  		<span class="alignright">MADE WITH <i class="fa fa-heart"></i> BY AMANDA MCINNIS</span>
+  	  </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
